@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 am.set(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(),
                         pendingIntent);
             }
-            
+
         });
     }
 
